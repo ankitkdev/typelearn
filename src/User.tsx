@@ -12,7 +12,7 @@ function User() {
             }}>Update Name</button>
             <button onClick={() => {
                 dispatch({ type: "UPDATE_AGE", payload: 24 })
-            }}>Update Name</button>
+            }}>Update Age</button>
         </div>
     )
 }
