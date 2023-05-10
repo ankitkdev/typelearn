@@ -7,6 +7,7 @@ type contextType={
   state: typeof initialState,
   dispatch: React.Dispatch<actionType | actionTypep>
 }
+
 export const UserContext = createContext({} as contextType)
 
 function App() {
